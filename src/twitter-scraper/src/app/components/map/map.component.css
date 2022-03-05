@@ -1,0 +1,10 @@
+.wrap {
+    padding: 0;
+    width: 100%;
+    height: calc(100% - 56px);
+    background-color: #D3E4CD;
+}
+
+.header-text {
+    font-size: 20px;
+}
