@@ -1,9 +1,7 @@
 ---
-## Twitter API Testing
+# HackCU 2022 - Twitter API Testing
 ---
 
 ...
 
 ---
-
-# HackCU 2022
