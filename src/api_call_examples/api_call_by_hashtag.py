@@ -26,7 +26,7 @@ stream = FilteredStream()
 
 # Rules to modify
 rules: list = [
-    {"value": "(ukrainian OR ukraine) lang:en"}
+    {"value": "(ukraine OR ukrainian) lang:en -is:retweet"}
 ]
 
 # Get rid of previous rules
