@@ -4,6 +4,12 @@
 ##### What Does Twitter Think? (WDTT) is an interactive website in which you ask Twitter what it thinks!
 ##### Simply run the Angular and NodeJs app and type in the box to see what happens!
 ---
+## Modules:
+```
+pip install transformers, twitter-stream.py, torch
+```
+* Install npm, Angular, and NodeJs
+---
 ## API Setup
 ```
 ~$ vim ~/.twitter-keys.yaml
