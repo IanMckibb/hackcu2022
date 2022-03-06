@@ -39,7 +39,11 @@ word = input()
 
 # Rules to modify
 rules: list = [
+<<<<<<< HEAD
+    {"value": "(ukraine OR ukrainian) lang:en -is:retweet"}
+=======
     {"value": word + " lang:en -is:retweet"}
+>>>>>>> 44ed3e60be28f9137f107a3c57260a675939de81
 ]
 
 # Get rid of previous rules

@@ -10,7 +10,18 @@ body,
 html {
   height: 100%;
 }
-
+span {
+  
+    color: #c00;
+    font-size: 100%;
+}
+#meter {
+  
+    margin: 0 auto 4.5em;
+    width: 450px;
+    height: 50px;
+    display: block;
+}
 .bg {
   /* The image used */
   background-image: url(maybe.jpg);

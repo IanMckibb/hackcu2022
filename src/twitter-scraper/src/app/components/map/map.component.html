@@ -16,10 +16,14 @@
                 </div>
                 <div *ngIf="number">
                     <h1>
-                        {{number}}
+                        <meter id="meter" value="{{number}}" min="0" max="100"></meter>
                     </h1>
                 </div>
             </div>
+
+            <!-- <ng-template ngIf="phrase">
+                <div class="bg"></div>
+            </ng-template> -->
         </div>
     </div>
 
