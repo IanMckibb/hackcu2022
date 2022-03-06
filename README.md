@@ -10,6 +10,10 @@ pip install transformers, twitter-stream.py, torch
 ```
 * Install npm, Angular, and NodeJs
 ---
+## To Run:
+* ng serve <project_folder>
+* node server/server.js
+---
 ## API Setup
 ```
 ~$ vim ~/.twitter-keys.yaml
