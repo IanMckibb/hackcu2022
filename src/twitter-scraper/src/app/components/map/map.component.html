@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<div class="wrap">
-    <div class="header-text">
-        Twitter Searcher
-    </div>
-    <input type="search" id="site-search" name="q"
-       aria-label="Search through site content" style="display: inline;">
-
-    <button>Search</button>
-</div>
-=======
 <!-- <div class="wrap"> -->
     <div class="wrap">
         <div class="bg">
@@ -19,11 +8,19 @@
                     
                 <!-- </form> -->
             </div>
-            <!-- <ng-template ngIf="phrase">
-                <div class="bg"></div>
-            </ng-template> -->
+            <div class="centered">
+                <div *ngIf="loading">
+                    <h1>
+                        Loading...
+                    </h1>
+                </div>
+                <div *ngIf="number">
+                    <h1>
+                        {{number}}
+                    </h1>
+                </div>
+            </div>
         </div>
-        
     </div>
 
     <!-- <p class="py-5 text-center">This example creates a full page background image. Try to resize the browser
@@ -51,4 +48,3 @@ src="https://live.staticflickr.com/65535/33336453970_9d0c47d8bc_c.jpg"
          alt="Searched_image"> -->
 
 <!-- </div> -->
->>>>>>> 7bbdf7c12e581f1e046ebf2517ca68d9a53e5f32

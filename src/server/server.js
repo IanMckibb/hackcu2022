@@ -1,8 +1,11 @@
 // Importing expresss
 const express=require("express");
 var queryString = require('querystring');
-const app=express();
+const cors = require('cors');
 
+const app = express();
+
+app.use(cors())
  
 // Handling get request
 app.get("/doIt",(req,res,next)=>{
