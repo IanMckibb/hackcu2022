@@ -3,8 +3,11 @@
     width: 100%;
     height: calc(100% - 56px);
     background-color: #D3E4CD;
+    padding: 40px;
+    text-align: center;
 }
 
 .header-text {
     font-size: 20px;
+    padding: 20px;
 }
