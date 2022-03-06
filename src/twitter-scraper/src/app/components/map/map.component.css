@@ -1,13 +1,62 @@
 .wrap {
+    background-image: url(maybe.jpg);
     padding: 0;
     width: 100%;
-    height: calc(100% - 56px);
-    background-color: #D3E4CD;
-    padding: 40px;
-    text-align: center;
+    height: calc(100% - 0px);
+    background-color: #43fae2;
 }
 
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(maybe.jpg);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+    background-image: url(maybe.jpg);
+}
 .header-text {
     font-size: 20px;
+<<<<<<< HEAD
     padding: 20px;
 }
+=======
+}
+.input {
+    
+    margin: auto;
+    width: 50%;
+    /* position: absolute;
+    bottom: 25;
+    right: 25; */
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+.flickr{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+>>>>>>> 7bbdf7c12e581f1e046ebf2517ca68d9a53e5f32
