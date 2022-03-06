@@ -8,12 +8,8 @@ import { ServerService } from '../../server.service';
 })
 export class MapComponent implements OnInit {
 
-<<<<<<< HEAD
-  constructor(private serverService: ServerService) { }
-=======
   constructor() { }
   public phrase = "";
->>>>>>> 7bbdf7c12e581f1e046ebf2517ca68d9a53e5f32
 
   ngOnInit(): void {
   }
