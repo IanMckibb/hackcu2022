@@ -8,3 +8,13 @@
 .header-text {
     font-size: 20px;
 }
+
+.input {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+.text{
+    background-color: #4654e1;
+}
