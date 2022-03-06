@@ -1,8 +1,8 @@
 ---
 # HackCU 2022 - What Does Twitter Think?
 ---
-What Does Twitter Think? (WDTT) is an interactive website in which you ask Twitter what it thinks!
-Simply run the Angular and NodeJs app and type in the box to see what happens!
+##### What Does Twitter Think? (WDTT) is an interactive website in which you ask Twitter what it thinks!
+##### Simply run the Angular and NodeJs app and type in the box to see what happens!
 ---
 ## API Setup
 ```
